@@ -1,0 +1,22 @@
+.container{
+  background-color: #fcb6c2;
+}
+
+
+[class*="col-"]{
+  border:1px solid black;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+
+
+.nested.row{
+  padding:10px;
+}
+
+.nested.col-2, .nested.col-8, .nested.col-6{
+ height: 180px;
+ border: 1px solid white;
+ background-color: #f96c85;
+}
